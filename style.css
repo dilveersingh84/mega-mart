@@ -1,0 +1,873 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.header
+{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(248, 243, 237);
+    display: flex;
+    justify-content: space-around;
+}
+
+h6 {
+    margin: 0;
+    width: 214px;
+    height: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 14px;
+    margin-left: 10px;
+}
+.adress img
+{
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+}
+.adress a
+{
+    font-size: 14px;
+    color: #666666;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.location
+{
+    display: flex;
+    gap: 5px;
+}
+.track
+{
+    display: flex;
+    gap: 5px;
+}
+.offer
+{
+    display: flex;
+    gap: 5px;
+}
+.adress
+{
+    display: inline-flex;
+    justify-content: space-around;
+    gap: 15px;
+    margin-left: 500px;
+}
+.logo span
+{
+    color: #008ECC;
+    width: 138px;
+    height: 28px;
+    font-size: 30px;
+    margin-top: 7px;
+}
+.logo img
+{
+    height: 50px;
+}
+.logo
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 5px;
+}
+input[type=search]
+{
+    border: none;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-image: url(images/Search.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    padding-left: 40px;
+    background-color: #F3F9FB;
+;
+}
+.search
+{
+    margin-top: 45px;
+}
+.sign a
+{
+    text-decoration: none;
+    color: #666666;
+    font-size: 18px;
+}
+.sign img
+{
+    margin-top: 50px;
+}
+.card a
+{
+    text-decoration: none;
+    color: #666666;
+    font-size: 18px;
+}
+.card img
+{
+    margin-top: 50px;
+}
+.buttons
+{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.menu
+{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border: 2px solid #EDEDED;
+    height: 120px;
+}
+.items
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #EDEDED;
+    margin-top: ;
+}
+.groceries
+{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #008ECC;
+    border-radius: 50px;
+    margin-top: 10px;
+    color: white;
+    margin-left: 90px;
+}
+.fruit
+{
+    display: flex;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: #F3F9FB;
+}
+.fashion
+{
+    display: flex;
+    width: 95px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: #F3F9FB;
+}
+.electronics
+{
+    display: flex;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: #F3F9FB;
+}
+.home
+{
+    display: flex;
+    width: 170px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: #F3F9FB;
+}
+.sport
+{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: #F3F9FB;
+    margin-right: 90px;
+}
+h5
+{
+    font-size: 14px;
+    margin: 7px;
+    margin-left: 15px;
+}
+.items img
+{
+    width: 15px;
+    height: 20px;
+    margin: 5px;
+    margin-left: 0px;
+}
+.erow
+{
+    width: 85px;
+    height: 85px;
+    background-color: #F3F9FB;
+    border-radius: 50%;
+    margin-top: 110px;
+    position: relative;
+    left: 40px;
+}
+.erow img
+{
+    margin: 35px;
+    width: 12px;
+}
+.erow1
+{
+    width: 85px;
+    height: 85px;
+    background-color: #F3F9FB;
+    border-radius: 50%;
+    margin-top: 110px;
+    position: relative;
+    right: 40px;
+}
+.erow1 img
+{
+    margin: 30px;
+    width: 28px;
+}
+.off h2
+{
+    font-size: 30px;
+    margin: 20px 0 0 100px;
+    
+}
+.off h1
+{
+    font-size: 63px;
+    margin: 20px 0 0 100px;
+}
+.off p
+{
+    font-size: 50px;
+    margin: 0 0 0 100px;
+    
+}
+.off{
+    width: 83%;
+    height: 300px;
+    border: none;
+    background-color: #212844;
+    background-image: url(images/Mask\ group.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 10px;
+    margin-top: 0;
+    color: #F3F9FB;
+    display: flex;
+}
+span
+{
+    color: #008ECC;
+}
+.watch img
+{
+    margin: 14px 0 0 220px;
+}
+.best
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+span
+{
+    color: #008ECC;
+}
+.grab
+{
+    width: 83%;
+    height: 140px;
+    border-bottom: 2px solid #EDEDED;
+    margin-left: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.grab h2
+{
+    margin-top: 100px;
+    color: #666666;
+    font-size: 20px;
+}
+.view
+{
+    display: flex
+}
+.grab img
+{
+    width: 20px;
+    height: 20px;
+    margin-top: 102px;
+}
+.card1
+{
+    width: 230px;
+    height: 270px;
+    border: 2px solid #EDEDED;
+    border-radius: 10px;
+    margin: 40px 0 0 125px;
+}
+.offf
+{
+    width: 50px;
+    height: 50px;
+    background-color: #008ECC;
+    border-radius: 0px 10px 0 10px;
+    color: white;
+    padding-top: 5px;
+}
+.s22
+{
+    display: flex;
+    justify-content: right;
+    background-color: rgb(248, 243, 237);
+    border-radius: 10px 0 0 0;
+}
+.s22 img
+{
+    margin: 20px 30px;
+    height: 150px;
+}
+.price
+{
+    border-bottom: #EDEDED;
+    width: 80%;
+    background-color: transparent;
+    text-align: justify;
+}
+.card2
+{
+    width: 230px;
+    height: 270px;
+    border: 2px solid #EDEDED;
+    border-radius: 10px;
+    margin: 40px 0 0 0px;
+}
+.m13
+{
+    display: flex;
+    justify-content: right;
+    background-color: rgb(248, 243, 237);
+    border-radius: 10px 0 0 0;
+}
+.m13 img
+{
+    margin: 20px 10px;
+    height: 150px;
+}
+.card3
+{
+    width: 230px;
+    height: 270px;
+    border: 2px solid #EDEDED;
+    border-radius: 10px;
+    margin: 40px 110px 0 0px;
+}
+.card1:hover
+{
+    transform: scale(1.05);
+}
+.card2:hover
+{
+    transform: scale(1.05);
+}
+.card3:hover
+{
+    transform: scale(1.05);
+}
+.smartphones
+{
+    display: flex;
+    justify-content: space-around;
+}
+.circle 
+{
+    width: 130px;
+    height: 130px;
+    background-color: rgb(248, 243, 237);
+    border-radius: 50%;
+    border: 1px solid #EDEDED;
+    margin: 40px 0 0 125px;
+}
+.top-categories img
+{
+    width: 50px;
+    margin: 20px 0 0 40px;
+}
+.top-categories h5
+{
+    margin: 20px 0 0 35px;
+    font-size: 15px;
+}
+.circle1 img
+{
+    width: 90px;
+    height: 100px;
+    margin: 13px 0 0 20px;
+}
+.circle1
+{
+    width: 130px;
+    height: 130px;
+    background-color: rgb(248, 243, 237);
+    border-radius: 50%;
+    border: 1px solid #EDEDED;
+    margin: 40px 0 0 0;
+}
+.circle2 img
+{
+    width: 80px;
+    height: 80px;
+    margin: 30px 0 0 20px;
+}
+.circle2
+{
+    width: 130px;
+    height: 130px;
+    background-color: rgb(248, 243, 237);
+    border-radius: 50%;
+    border: 1px solid #EDEDED;
+    margin: 40px 0 0 0;
+}
+.circle3 img
+{
+    width: 70px;
+    height: 100px;
+    margin: 15px 0 0 25px;
+}
+.circle3
+{
+    width: 130px;
+    height: 130px;
+    background-color: rgb(248, 243, 237);
+    border-radius: 50%;
+    border: 1px solid #EDEDED;
+    margin: 40px 0 0 0;
+}
+.circle4 img
+{
+    width: 100px;
+    height: 100px;
+    margin: 13px 0 0 15px;
+}
+.circle4
+{
+    width: 130px;
+    height: 130px;
+    background-color: rgb(248, 243, 237);
+    border-radius: 50%;
+    border: 1px solid #EDEDED;
+    margin: 40px 130px 0 0;
+}
+.circle:hover
+{
+    transform: scale(1.05);
+}
+.circle1:hover
+{
+    transform: scale(1.05);
+}
+.circle2:hover
+{
+    transform: scale(1.05);
+}
+.circle3:hover
+{
+    transform: scale(1.05);
+}
+.circle4:hover
+{
+    transform: scale(1.05);
+}
+.top-categories
+{
+    display: flex;
+    justify-content: space-around;
+}
+.iphone
+{
+    width: 350px;
+    height: 200px;
+    background-color: #313131;
+    border: none;
+    border-radius: 16px;
+    background-image: url(images/Mask\ group\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 0 130px;
+}
+.brand
+{
+    width: 100px;
+    height: 30px;
+    background-color: #494949;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}
+.logo
+{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.logo img
+{
+    width: 40px;
+    margin-left: 10px;
+}
+.electronics-brand h2
+{
+    margin-left: 20px;
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
+}
+.realme
+{
+    width: 350px;
+    height: 200px;
+    background-color: #FFF3CC;
+    border: none;
+    border-radius: 16px;
+    background-image: url(images/Mask\ group\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+}
+.brand1
+{
+    width: 100px;
+    height: 30px;
+    background-color: #F6DE8D;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    text-align: center;
+    color: #222222;
+    padding-top: 5px;
+}
+.logo1
+{
+    position: relative;
+    left: 10px;
+    top: 50px;
+}
+.logo1 img
+{
+    width: 80px;
+    height: 30px;
+    margin-left: 10px;
+}
+.realme h2
+{
+    margin-top: 70px;
+    color: #222222;
+}
+.phone img
+{
+    margin:20px 0 0 20px;
+    height: 280px;
+    width: 170px;
+}
+.mi
+{
+    width: 350px;
+    height: 200px;
+    background-color: #FFECDF;
+    border: none;
+    border-radius: 16px;
+    background-image: url(images/Mask\ group\ \(3\).png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 130px 0 0 ;
+}
+.brand2
+{
+    width: 100px;
+    height: 30px;
+    background-color: #FFD1B0;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    text-align: center;
+    color: #222222;
+    padding-top: 5px;
+}
+.logo2
+{
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
+.logo2 img
+{
+    width: 50px;
+    margin-left: 10px;
+}
+.mi h2
+{
+    margin-top: 70px;
+    color: #222222;
+}
+.pic img
+{
+    margin:20px 0 0 20px;
+    height: 280px;
+    width: 170px;
+}
+.iphone:hover
+{
+    transform: scale(1.05);
+}
+.realme:hover
+{
+    transform: scale(1.05);
+}
+.mi:hover
+{
+    transform: scale(1.05);
+}
+.electronics-brand
+{
+    display: flex;
+    justify-content: space-around;
+}
+.dot h1
+{
+    text-align: center;
+    font-size: 70px;
+    margin: 0px;
+    color: #D9D9D9;
+}
+.deal
+{
+    border-bottom: 3px solid #008ECC;
+}
+.box
+{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(248, 243, 237);
+    border-radius: 16px;
+    margin: 40px 0 0 130px;
+}
+.box img
+{
+    width: 130px;
+    height: 130px;
+    margin: 30px;
+}
+.box1
+{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(248, 243, 237);
+    border-radius: 16px;
+    margin: 40px 0 0 0;
+}
+.box1 img
+{
+    width: 130px;
+    height: 130px;
+    margin: 30px;
+}
+.box2
+{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(248, 243, 237);
+    border-radius: 16px;
+    margin: 40px 0 0 0;
+}
+.box2 img
+{
+    width: 130px;
+    height: 130px;
+    margin: 30px;
+}
+.box3
+{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(248, 243, 237);
+    border-radius: 16px;
+    margin: 40px 130px 0 0;
+}
+.box3 img
+{
+    width: 130px;
+    height: 130px;
+    margin: 30px ;
+}
+.daily h5
+{
+    font-size: 13px;
+    color: #666666;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+.daily h3
+{
+    font-size: 18px;
+    color: #222222;
+    text-align: center;
+    margin: 0;
+}
+.box:hover
+{
+    transform: scale(1.05);
+}
+.box1:hover
+{
+    transform: scale(1.05);
+}
+.box2:hover
+{
+    transform: scale(1.05);
+}
+.box3:hover:hover
+{
+    transform: scale(1.05);
+}
+.daily
+{
+    display: flex;
+    justify-content: space-around;
+}
+.footer
+{
+    width: 100%;
+    height: 550px;
+    background-color: #008ECC;
+    margin-top: 150px;
+    background-image: url(images/Mask\ group\ \(4\).png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: right;
+}
+.footer h2
+{
+    font-size: 40px;
+    color: white;
+    margin-left: 140px;
+    padding-top: 70px;
+}
+.footer h5
+{
+    color: white;
+    margin: 0 0 0 10px ;
+}
+.whatsapp
+{
+    display: flex;
+}
+.whatsapp img
+{
+    margin-left: 140px;
+    margin-top: 10px;
+}
+.footer h4
+{
+    color: white;
+    margin: 20px 0 20px 140px;
+}
+.app
+{
+    display: flex;
+    
+}
+.play img
+{
+    width: 140px;
+    margin-left: 10px;
+}
+.store img
+{
+    width: 130px;
+    margin-left: 140px;
+}
+.footer h1
+{
+    font-size: 25px;
+    color: white;
+    margin: 110px 0 0 0;
+}
+.footer a
+{
+    text-decoration: none;
+    color: white;
+}
+ul li
+{
+    color: white;
+    font-size: 15px;
+    padding: 0;
+    margin-top: 10px;
+}
+ul
+{
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.comb
+{
+    display: flex;
+    justify-content: space-around;
+}
+.customer
+{
+    margin-right: 200px;
+}
+.boder
+{
+    border-bottom: 3px solid white;
+}
+.rights
+{
+    border-top: 3px solid #05ABF3;
+    width: 80%;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.rights h5
+{
+    text-align: center;
+    margin-top: 20px;
+}
