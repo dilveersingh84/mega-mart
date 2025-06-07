@@ -1,86 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-body
-{
+body {
     margin: 0;
     padding: 0;
     font-family: "Hanken Grotesk", sans-serif;
 }
 
-.header
-{
+.header {
     width: 100%;
     height: 45px;
     background-color: rgb(248, 243, 237);
+}
+
+.header-box {
+    width: 85%;
+    height: 45px;
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 h6 {
     margin: 0;
-    width: 214px;
-    height: 14px;
     font-weight: 400;
     font-size: 14px;
-    padding-top: 14px;
-    margin-left: 10px;
+    padding: 14px 0;
+
 }
-.adress img
-{
+
+.adress img {
     width: 25px;
     height: 25px;
     margin-top: 12px;
 }
-.adress a
-{
+
+.adress a {
     font-size: 14px;
     color: #666666;
     text-decoration: none;
     margin-top: 15px;
 }
-.location
-{
+
+.location {
     display: flex;
     gap: 5px;
 }
-.track
-{
+
+.track {
     display: flex;
     gap: 5px;
 }
-.offer
-{
+
+.offer {
     display: flex;
     gap: 5px;
 }
-.adress
-{
+
+.adress {
     display: inline-flex;
     justify-content: space-around;
     gap: 15px;
     margin-left: 500px;
 }
-.logo span
-{
+
+.menu span {
     color: #008ECC;
-    width: 138px;
-    height: 28px;
     font-size: 30px;
-    margin-top: 7px;
+    font-weight: bold;
+    padding: 0px 0 0 5px;
 }
-.logo img
-{
-    height: 50px;
-}
-.logo
-{
+
+.mega-logo {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
-    gap: 5px;
+    padding: 45px 0;
 }
-input[type=search]
-{
+
+input[type=search] {
     border: none;
     width: 400px;
     height: 40px;
@@ -88,135 +86,135 @@ input[type=search]
     background-image: url(images/Search.png);
     background-repeat: no-repeat;
     background-position: 10px 10px;
-    padding-left: 40px;
     background-color: #F3F9FB;
-;
+    text-align: center;
 }
-.search
-{
-    margin-top: 45px;
+
+.search {
+    padding: 45px;
 }
-.sign a
-{
+
+.sign a {
     text-decoration: none;
     color: #666666;
     font-size: 18px;
 }
-.sign img
-{
-    margin-top: 50px;
-}
-.card a
-{
+
+.card a {
     text-decoration: none;
     color: #666666;
     font-size: 18px;
 }
-.card img
-{
-    margin-top: 50px;
+
+.sign {
+    display: flex;
 }
-.buttons
-{
+
+.buttons {
     display: flex;
     justify-content: space-evenly;
     gap: 15px;
+    padding: 50px 0;
 }
-.menu
-{
+
+.menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     box-sizing: border-box;
-    border: 2px solid #EDEDED;
+    border: none;
     height: 120px;
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
 }
-.items
-{
-    display: flex;
-    justify-content: space-around;
+
+.items {
     width: 100%;
     height: 50px;
-    border-bottom: 2px solid #EDEDED;
-    margin-top: ;
+    border: 2px solid #EDEDED;
 }
-.groceries
-{
+
+.items-border {
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
+    height: 30px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0 10px 0;
+}
+
+.groceries {
     display: flex;
     width: 100px;
     height: 30px;
     border: none;
     background-color: #008ECC;
     border-radius: 50px;
-    margin-top: 10px;
     color: white;
-    margin-left: 90px;
+
 }
-.fruit
-{
+
+.fruit {
     display: flex;
     width: 150px;
     height: 30px;
     border: none;
     border-radius: 50px;
-    margin-top: 10px;
     background-color: #F3F9FB;
 }
-.fashion
-{
+
+.fashion {
     display: flex;
     width: 95px;
     height: 30px;
     border: none;
     border-radius: 50px;
-    margin-top: 10px;
     background-color: #F3F9FB;
 }
-.electronics
-{
+
+.electronics {
     display: flex;
     width: 120px;
     height: 30px;
     border: none;
     border-radius: 50px;
-    margin-top: 10px;
     background-color: #F3F9FB;
 }
-.home
-{
+
+.home {
     display: flex;
     width: 170px;
     height: 30px;
     border: none;
     border-radius: 50px;
-    margin-top: 10px;
     background-color: #F3F9FB;
 }
-.sport
-{
+
+.sport {
     display: flex;
     width: 200px;
     height: 30px;
     border: none;
     border-radius: 50px;
-    margin-top: 10px;
     background-color: #F3F9FB;
-    margin-right: 90px;
 }
-h5
-{
+
+h5 {
     font-size: 14px;
     margin: 7px;
     margin-left: 15px;
 }
-.items img
-{
+
+.items img {
     width: 15px;
     height: 20px;
     margin: 5px;
     margin-left: 0px;
 }
-.erow
-{
+
+.erow {
     width: 85px;
     height: 85px;
     background-color: #F3F9FB;
@@ -225,44 +223,46 @@ h5
     position: relative;
     left: 40px;
 }
-.erow img
-{
+
+.erow img {
     margin: 35px;
     width: 12px;
 }
-.erow1
-{
+
+.erow1 {
     width: 85px;
     height: 85px;
     background-color: #F3F9FB;
     border-radius: 50%;
-    margin-top: 110px;
+    margin: 110px 0 0 10px;
+
     position: relative;
-    right: 40px;
+    right: 50px;
 }
-.erow1 img
-{
+
+.erow1 img {
     margin: 30px;
     width: 28px;
 }
-.off h2
-{
+
+.off h2 {
     font-size: 30px;
     margin: 20px 0 0 100px;
-    
+
 }
-.off h1
-{
+
+.off h1 {
     font-size: 63px;
     margin: 20px 0 0 100px;
 }
-.off p
-{
+
+.off p {
     font-size: 50px;
     margin: 0 0 0 100px;
-    
+
 }
-.off{
+
+.off {
     width: 83%;
     height: 300px;
     border: none;
@@ -274,60 +274,68 @@ h5
     margin-top: 0;
     color: #F3F9FB;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-span
-{
+
+span {
     color: #008ECC;
 }
-.watch img
-{
-    margin: 14px 0 0 220px;
+
+.watch img {
+    padding-right: 30px;
 }
-.best
-{
+
+.best {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
-span
-{
+
+span {
     color: #008ECC;
 }
-.grab
-{
-    width: 83%;
+
+.grab {
+    width: 85%;
     height: 140px;
     border-bottom: 2px solid #EDEDED;
-    margin-left: 130px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: space-between;
 }
-.grab h2
-{
+
+.grab h2 {
     margin-top: 100px;
     color: #666666;
     font-size: 20px;
 }
-.view
-{
+
+.view {
     display: flex
 }
-.grab img
-{
+
+.grab img {
     width: 20px;
     height: 20px;
     margin-top: 102px;
 }
-.card1
-{
+
+.card1 {
     width: 230px;
     height: 270px;
     border: 2px solid #EDEDED;
     border-radius: 10px;
     margin: 40px 0 0 125px;
 }
-.offf
-{
+
+.card1:hover {
+    transform: scale(1.05);
+    transition: 0.5;
+}
+
+.offf {
     width: 50px;
     height: 50px;
     background-color: #008ECC;
@@ -335,72 +343,96 @@ span
     color: white;
     padding-top: 5px;
 }
-.s22
-{
+
+.offf h5 {
+    padding: 5px;
+}
+
+.s22 {
     display: flex;
     justify-content: right;
     background-color: rgb(248, 243, 237);
     border-radius: 10px 0 0 0;
 }
-.s22 img
-{
+
+.s22 img {
     margin: 20px 30px;
     height: 150px;
 }
-.price
-{
+
+.price {
     border-bottom: #EDEDED;
     width: 80%;
     background-color: transparent;
     text-align: justify;
 }
-.card2
-{
+
+.card2 {
+    width: 230px;
+    height: 270px;
+    border: 2px solid #EDEDED;
+    border-radius: 10px;
+    margin: 40px 0 0 0;
+}
+
+.card2:hover {
+    transform: scale(1.05);
+}
+
+.card3 {
+    width: 230px;
+    height: 270px;
+    border: 2px solid #EDEDED;
+    border-radius: 10px;
+    margin: 40px 0 0 0;
+}
+
+.card3:hover {
+    transform: scale(1.05);
+}
+
+.card4 {
     width: 230px;
     height: 270px;
     border: 2px solid #EDEDED;
     border-radius: 10px;
     margin: 40px 0 0 0px;
 }
-.m13
-{
+
+.card4:hover {
+    transform: scale(1.05);
+}
+
+.m13 {
     display: flex;
     justify-content: right;
     background-color: rgb(248, 243, 237);
     border-radius: 10px 0 0 0;
 }
-.m13 img
-{
+
+.m13 img {
     margin: 20px 10px;
     height: 150px;
 }
-.card3
-{
+
+.card5 {
     width: 230px;
     height: 270px;
     border: 2px solid #EDEDED;
     border-radius: 10px;
     margin: 40px 110px 0 0px;
 }
-.card1:hover
-{
+
+.card5:hover {
     transform: scale(1.05);
 }
-.card2:hover
-{
-    transform: scale(1.05);
-}
-.card3:hover
-{
-    transform: scale(1.05);
-}
-.smartphones
-{
+
+.smartphones {
     display: flex;
     justify-content: space-around;
 }
-.circle 
-{
+
+.circle {
     width: 130px;
     height: 130px;
     background-color: rgb(248, 243, 237);
@@ -408,24 +440,29 @@ span
     border: 1px solid #EDEDED;
     margin: 40px 0 0 125px;
 }
-.top-categories img
-{
+
+.top-categories img {
     width: 50px;
     margin: 20px 0 0 40px;
 }
-.top-categories h5
-{
-    margin: 20px 0 0 35px;
+
+.top-categories h5 {
+    text-align: center;
     font-size: 15px;
+    margin-top: 20px;
 }
-.circle1 img
-{
+
+.circle3 img,
+.circle4 img,
+.circle6 img {
     width: 90px;
     height: 100px;
-    margin: 13px 0 0 20px;
+    margin: 13px 0 0 25px;
 }
-.circle1
-{
+
+.circle3,
+.circle4,
+.circle6 {
     width: 130px;
     height: 130px;
     background-color: rgb(248, 243, 237);
@@ -433,14 +470,14 @@ span
     border: 1px solid #EDEDED;
     margin: 40px 0 0 0;
 }
-.circle2 img
-{
+
+.circle5 img {
     width: 80px;
     height: 80px;
     margin: 30px 0 0 20px;
 }
-.circle2
-{
+
+.circle5 {
     width: 130px;
     height: 130px;
     background-color: rgb(248, 243, 237);
@@ -448,14 +485,14 @@ span
     border: 1px solid #EDEDED;
     margin: 40px 0 0 0;
 }
-.circle3 img
-{
+
+.circle2 img {
     width: 70px;
     height: 100px;
     margin: 15px 0 0 25px;
 }
-.circle3
-{
+
+.circle2 {
     width: 130px;
     height: 130px;
     background-color: rgb(248, 243, 237);
@@ -463,14 +500,14 @@ span
     border: 1px solid #EDEDED;
     margin: 40px 0 0 0;
 }
-.circle4 img
-{
+
+.circle7 img {
     width: 100px;
     height: 100px;
     margin: 13px 0 0 15px;
 }
-.circle4
-{
+
+.circle7 {
     width: 130px;
     height: 130px;
     background-color: rgb(248, 243, 237);
@@ -478,33 +515,45 @@ span
     border: 1px solid #EDEDED;
     margin: 40px 130px 0 0;
 }
-.circle:hover
-{
+
+.circle:hover {
     transform: scale(1.05);
 }
-.circle1:hover
-{
+
+.circle1:hover {
     transform: scale(1.05);
 }
-.circle2:hover
-{
+
+.circle2:hover {
     transform: scale(1.05);
 }
-.circle3:hover
-{
+
+.circle3:hover {
     transform: scale(1.05);
 }
-.circle4:hover
-{
+
+.circle4:hover {
     transform: scale(1.05);
 }
-.top-categories
-{
+
+.circle5:hover {
+    transform: scale(1.05);
+}
+
+.circle6:hover {
+    transform: scale(1.05);
+}
+
+.circle7:hover {
+    transform: scale(1.05);
+}
+
+.top-categories {
     display: flex;
     justify-content: space-around;
 }
-.iphone
-{
+
+.iphone {
     width: 350px;
     height: 200px;
     background-color: #313131;
@@ -517,8 +566,8 @@ span
     justify-content: space-between;
     margin: 50px 0 0 130px;
 }
-.brand
-{
+
+.brand {
     width: 100px;
     height: 30px;
     background-color: #494949;
@@ -530,8 +579,8 @@ span
     color: white;
     padding-top: 5px;
 }
-.logo
-{
+
+.logo {
     width: 60px;
     height: 60px;
     background-color: white;
@@ -540,20 +589,20 @@ span
     left: 20px;
     top: 20px;
 }
-.logo img
-{
+
+.logo img {
     width: 40px;
     margin-left: 10px;
 }
-.electronics-brand h2
-{
+
+.electronics-brand h2 {
     margin-left: 20px;
     margin-top: 40px;
     color: white;
     font-size: 20px;
 }
-.realme
-{
+
+.realme {
     width: 350px;
     height: 200px;
     background-color: #FFF3CC;
@@ -566,8 +615,8 @@ span
     justify-content: space-between;
     margin: 50px 0 0 0;
 }
-.brand1
-{
+
+.brand1 {
     width: 100px;
     height: 30px;
     background-color: #F6DE8D;
@@ -579,31 +628,31 @@ span
     color: #222222;
     padding-top: 5px;
 }
-.logo1
-{
+
+.logo1 {
     position: relative;
     left: 10px;
     top: 50px;
 }
-.logo1 img
-{
+
+.logo1 img {
     width: 80px;
     height: 30px;
     margin-left: 10px;
 }
-.realme h2
-{
+
+.realme h2 {
     margin-top: 70px;
     color: #222222;
 }
-.phone img
-{
-    margin:20px 0 0 20px;
+
+.phone img {
+    margin: 20px 0 0 20px;
     height: 280px;
     width: 170px;
 }
-.mi
-{
+
+.mi {
     width: 350px;
     height: 200px;
     background-color: #FFECDF;
@@ -614,10 +663,10 @@ span
     background-position: right;
     display: flex;
     justify-content: space-between;
-    margin: 50px 130px 0 0 ;
+    margin: 50px 130px 0 0;
 }
-.brand2
-{
+
+.brand2 {
     width: 100px;
     height: 30px;
     background-color: #FFD1B0;
@@ -629,149 +678,155 @@ span
     color: #222222;
     padding-top: 5px;
 }
-.logo2
-{
+
+.logo2 {
     position: relative;
     left: 20px;
     top: 40px;
 }
-.logo2 img
-{
+
+.logo2 img {
     width: 50px;
     margin-left: 10px;
 }
-.mi h2
-{
+
+.mi h2 {
     margin-top: 70px;
     color: #222222;
 }
-.pic img
-{
-    margin:20px 0 0 20px;
+
+.pic img {
+    margin: 20px 0 0 20px;
     height: 280px;
     width: 170px;
 }
-.iphone:hover
-{
+
+.iphone:hover {
     transform: scale(1.05);
 }
-.realme:hover
-{
+
+.realme:hover {
     transform: scale(1.05);
 }
-.mi:hover
-{
+
+.mi:hover {
     transform: scale(1.05);
 }
-.electronics-brand
-{
+
+.electronics-brand {
     display: flex;
     justify-content: space-around;
 }
-.dot h1
-{
+
+.dot h1 {
     text-align: center;
     font-size: 70px;
     margin: 0px;
     color: #D9D9D9;
 }
-.deal
-{
+
+.deal {
     border-bottom: 3px solid #008ECC;
 }
-.box
-{
+
+.box {
     width: 180px;
     height: 180px;
     background-color: rgb(248, 243, 237);
     border-radius: 16px;
     margin: 40px 0 0 130px;
 }
-.box img
-{
+
+.box img {
     width: 130px;
     height: 130px;
     margin: 30px;
 }
-.box1
-{
+
+.box1,
+.box2 {
     width: 180px;
     height: 180px;
     background-color: rgb(248, 243, 237);
     border-radius: 16px;
     margin: 40px 0 0 0;
 }
-.box1 img
-{
+
+.box1 img,
+.box2 img {
     width: 130px;
     height: 130px;
     margin: 30px;
 }
-.box2
-{
+
+.box3,
+.box4 {
     width: 180px;
     height: 180px;
     background-color: rgb(248, 243, 237);
     border-radius: 16px;
     margin: 40px 0 0 0;
 }
-.box2 img
-{
+
+.box3 img,
+.box4 img {
     width: 130px;
     height: 130px;
     margin: 30px;
 }
-.box3
-{
+
+.box5 {
     width: 180px;
     height: 180px;
     background-color: rgb(248, 243, 237);
     border-radius: 16px;
     margin: 40px 130px 0 0;
 }
-.box3 img
-{
+
+.box5 img {
     width: 130px;
     height: 130px;
-    margin: 30px ;
+    margin: 30px;
 }
-.daily h5
-{
+
+.daily h5 {
     font-size: 13px;
     color: #666666;
     text-align: center;
     margin: 10px 0 0 0;
 }
-.daily h3
-{
+
+.daily h3 {
     font-size: 18px;
     color: #222222;
     text-align: center;
     margin: 0;
 }
-.box:hover
-{
+
+.box:hover {
     transform: scale(1.05);
 }
-.box1:hover
-{
+
+.box1:hover,
+.box2:hover {
     transform: scale(1.05);
 }
-.box2:hover
-{
+
+.box3:hover,
+.box4:hover {
     transform: scale(1.05);
 }
-.box3:hover:hover
-{
+
+.box5:hover:hover {
     transform: scale(1.05);
 }
-.daily
-{
+
+.daily {
     display: flex;
     justify-content: space-around;
 }
-.footer
-{
+
+.footer {
     width: 100%;
     height: 550px;
     background-color: #008ECC;
@@ -781,93 +836,535 @@ span
     background-position: top;
     background-position-x: right;
 }
-.footer h2
-{
+
+.footer h2 {
     font-size: 40px;
     color: white;
     margin-left: 140px;
     padding-top: 70px;
 }
-.footer h5
-{
+
+.footer h5 {
     color: white;
-    margin: 0 0 0 10px ;
+    margin: 0 0 0 10px;
 }
-.whatsapp
-{
+
+.whatsapp {
     display: flex;
 }
-.whatsapp img
-{
+
+.whatsapp img {
     margin-left: 140px;
     margin-top: 10px;
 }
-.footer h4
-{
+
+.footer h4 {
     color: white;
     margin: 20px 0 20px 140px;
 }
-.app
-{
+
+.app {
     display: flex;
-    
+
 }
-.play img
-{
+
+.play img {
     width: 140px;
     margin-left: 10px;
 }
-.store img
-{
+
+.store img {
     width: 130px;
     margin-left: 140px;
 }
-.footer h1
-{
+
+.footer h1 {
     font-size: 25px;
     color: white;
     margin: 110px 0 0 0;
 }
-.footer a
-{
+
+.footer a {
     text-decoration: none;
     color: white;
 }
-ul li
-{
+
+ul li {
     color: white;
     font-size: 15px;
     padding: 0;
     margin-top: 10px;
 }
-ul
-{
+
+ul {
     padding: 0;
     margin-left: 20px;
     margin-top: 40px;
 }
-.comb
-{
+
+.comb {
     display: flex;
     justify-content: space-around;
 }
-.customer
-{
+
+.customer {
     margin-right: 200px;
 }
-.boder
-{
+
+.boder {
     border-bottom: 3px solid white;
 }
-.rights
-{
+
+.rights {
     border-top: 3px solid #05ABF3;
-    width: 80%;
-    margin-left: 130px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
 }
-.rights h5
-{
+
+.rights h5 {
     text-align: center;
     margin-top: 20px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .header {
+        height: 30px;
+    }
+
+    .header-box {
+        height: 30px;
+    }
+
+    h6 {
+        font-weight: 100;
+        font-size: 10px;
+        padding: 8px 0;
+        width: 150px;
+    }
+
+    .adress img {
+        width: 10px;
+        height: 10px;
+        padding: 2px 0;
+        margin: 0;
+    }
+
+    .adress a {
+        font-size: 10px;
+        width: 80px;
+        margin: 0;
+    }
+
+    .location {
+        display: flex;
+        gap: 2px;
+    }
+
+    .track {
+        display: flex;
+        gap: 2px;
+    }
+
+    .offer {
+        display: flex;
+        gap: 2px;
+    }
+
+    .adress {
+        display: inline-flex;
+        justify-content: space-around;
+        gap: 15px;
+        margin-left: 0;
+        padding: 8px 0;
+    }
+
+    .menu span {
+        font-size: 20px;
+        padding: 0px 0 0 5px;
+    }
+
+    .mega-logo img {
+        width: 30px;
+    }
+
+    .mega-logo {
+        padding: 25px 0;
+    }
+
+    input[type=search] {
+        width: 250px;
+        height: 30px;
+        border-radius: 5px;
+        background-image: url(images/Search.png);
+        background-repeat: no-repeat;
+        background-size: 10px;
+        background-position: 10px 10px;
+    }
+
+    input::placeholder {
+        font-size: 10px;
+    }
+
+    .search {
+        padding: 25px 0;
+    }
+
+    .sign a {
+        font-size: 10px;
+    }
+
+    .sign img {
+        width: 17px;
+    }
+
+    .buttons {
+        padding: 30px 0;
+    }
+
+    .menu {
+        height: 75px;
+    }
+
+    .items {
+        height: 40px;
+    }
+
+    .items-border {
+        height: 20px;
+        padding: 10px 0;
+    }
+
+    .groceries {
+        width: 70px;
+        height: 20px;
+        border-radius: 30px;
+    }
+
+    .fruit {
+        width: 90px;
+        height: 20px;
+        border-radius: 30px;
+    }
+
+    .fashion {
+        width: 60px;
+        height: 20px;
+        border-radius: 30px;
+    }
+
+    .electronics {
+        width: 70px;
+        height: 20px;
+        border-radius: 30px;
+    }
+
+    .home {
+        width: 100px;
+        height: 20px;
+        border-radius: 30px;
+    }
+
+    .sport {
+        width: 115px;
+        height: 20px;
+        border-radius: 30px;
+    }
+
+    h5 {
+        font-size: 8px;
+        margin: 5px 2px 0 10px;
+    }
+
+    .items img {
+        width: 8px;
+        height: 10px;
+        margin: 0;
+        padding: 5px 5px 0 0;
+    }
+
+    .erow {
+        width: 65px;
+        height: 65px;
+        margin-top: 60px;
+        left: 30px;
+    }
+
+    .erow img {
+        margin: 25px;
+        width: 10px;
+    }
+
+    .erow1 {
+        width: 65px;
+        height: 65px;
+        margin-top: 60px;
+        right: 40px;
+    }
+
+    .erow1 img {
+        margin: 25px;
+        width: 20px;
+    }
+
+    .off h2 {
+        font-size: 15px;
+        margin: 5px 0 0 100px;
+
+    }
+
+    .off h1 {
+        font-size: 30px;
+        margin: 5px 0 0 100px;
+    }
+
+    .off p {
+        font-size: 40px;
+        margin: 0 0 20px 100px;
+
+    }
+
+    .off-best {
+        padding-top: 30px;
+    }
+
+    .off {
+        height: 180px;
+    }
+
+    .watch img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .grab {
+        height: 85px;
+    }
+
+    .grab h2 {
+        margin-top: 60px;
+        font-size: 15px;
+    }
+
+    .grab img {
+        width: 15px;
+        height: 15px;
+        margin-top: 62px;
+    }
+
+    .card1,
+    .card3 {
+        width: 300px;
+        height: 280px;
+        margin: 40px 0 0 55px;
+    }
+
+    .card2,
+    .card4,
+    .card5 {
+        width: 300px;
+        height: 280px;
+        margin: 40px 45px 0 0;
+    }
+
+    .offf {
+        width: 60px;
+        height: 60px;
+        padding-top: 0px;
+        margin-left: 32px;
+    }
+
+    .s22 {
+        justify-content: space-around;
+        padding-left: 70px;
+    }
+
+    .m13 {
+        justify-content: space-around;
+        padding-left: 70px;
+    }
+
+    .smartphones {
+        flex-wrap: wrap;
+    }
+
+    .smartphones h5 {
+        font-size: 18px;
+    }
+
+    .circle,
+    .circle4 {
+        width: 200px;
+        height: 200px;
+        margin: 40px 0 0 45px;
+    }
+
+    .circle2,
+    .circle5,
+    .circle7 {
+        width: 200px;
+        height: 200px;
+        margin: 40px 0 0 0;
+    }
+
+    .circle3,
+    .circle6 {
+        width: 200px;
+        height: 200px;
+        margin: 40px 40px 0 0;
+    }
+
+    .circle img,
+    .circle2 img {
+        width: 75px;
+        height: 135px;
+        margin: 35px 0 0 60px;
+    }
+
+    .circle3 img,
+    .circle4 img,
+    .circle6 img {
+        width: 135px;
+        height: 150px;
+        margin: 25px 0 0 32px;
+    }
+
+    .circle5 img {
+        width: 135px;
+        height: 140px;
+        padding-left: 15px;
+    }
+
+    .circle7 img {
+        width: 160px;
+        height: 160px;
+        padding: 5px;
+    }
+
+    .top-categories h5 {
+
+        font-size: 25px;
+        margin: 30px 0 0 0;
+
+    }
+
+    .top-categories {
+        flex-wrap: wrap;
+    }
+
+    .iphone {
+        margin: 50px 0 0 0;
+    }
+    .mi
+    {
+        margin: 50px 0 0 0;
+    }
+
+    .electronics-brand {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box,
+    .box3 {
+        width: 210px;
+        height: 210px;
+        margin: 40px 0 0 48px;
+    }
+
+    .box img,
+    .box3 img {
+        width: 150px;
+        height: 150px;
+        margin: 30px;
+    }
+
+    .box1,
+    .box4 {
+        width: 210px;
+        height: 210px;
+        margin: 40px 0 0 0;
+    }
+
+    .box1 img,
+    .box4 img {
+        width: 150px;
+        height: 150px;
+        margin: 30px;
+    }
+
+    .box2,
+    .box5 {
+        width: 210px;
+        height: 210px;
+        margin: 40px 40px 0 0;
+    }
+
+    .box2 img,
+    .box5 img {
+        width: 150px;
+        height: 150px;
+        margin: 30px;
+    }
+
+    .daily h5 {
+        font-size: 15px;
+    }
+
+    .daily {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .footer
+    {
+        height: 400px;
+    }
+    .footer h2
+    {
+        font-size: 30px;
+        margin-left: 50px;
+        padding-top: 0;
+    }
+    .footer h4{
+        margin: 0 0 0 50px;
+    }
+    .whatsapp img{
+        margin-left: 50px;
+    }
+    .call
+    {
+        margin-top: 14px;
+    }
+    .store img{
+        width: 90px;
+        margin-left: 50px;
+    }
+    .play img
+    {
+        width: 100px;
+    }
+    .footer h1
+    {
+        font-size: 20px;
+        margin: 30px;
+    }
+    .boder
+    {
+        width: 230px;
+    }
+    ul{
+        margin-top: 0;
+    }
+    .comb
+    {
+        gap: 10px;
+    }
+    .rights h5{
+        margin-top: 5px;
+    }
+    .rights
+    {
+        margin-top: 0;
+    }
 }
