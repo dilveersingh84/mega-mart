@@ -142,7 +142,7 @@ input[type=search] {
     border: none;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px 0 10px 0;
+    padding: 10px 0;
 }
 
 .groceries {
@@ -817,7 +817,7 @@ span {
     transform: scale(1.05);
 }
 
-.box5:hover:hover {
+.box5:hover {
     transform: scale(1.05);
 }
 
@@ -928,7 +928,7 @@ ul {
     margin-top: 20px;
 }
 
-@media screen and (min-width: 600px) and (max-width: 899px) {
+@media screen and (min-width: 800px) and (max-width: 999px) {
     .header {
         height: 30px;
     }
@@ -1157,7 +1157,7 @@ ul {
     .card3 {
         width: 300px;
         height: 280px;
-        margin: 40px 0 0 55px;
+        margin: 40px 0 0 0;
     }
 
     .card2,
@@ -1165,7 +1165,7 @@ ul {
     .card5 {
         width: 300px;
         height: 280px;
-        margin: 40px 45px 0 0;
+        margin: 40px 0 0 0;
     }
 
     .offf {
@@ -1256,8 +1256,8 @@ ul {
     .iphone {
         margin: 50px 0 0 0;
     }
-    .mi
-    {
+
+    .mi {
         margin: 50px 0 0 0;
     }
 
@@ -1270,7 +1270,7 @@ ul {
     .box3 {
         width: 210px;
         height: 210px;
-        margin: 40px 0 0 48px;
+        margin: 40px 0 0 45px;
     }
 
     .box img,
@@ -1298,7 +1298,7 @@ ul {
     .box5 {
         width: 210px;
         height: 210px;
-        margin: 40px 40px 0 0;
+        margin: 40px 45px 0 0;
     }
 
     .box2 img,
@@ -1316,55 +1316,435 @@ ul {
         flex-wrap: wrap;
         gap: 40px;
     }
-    .footer
-    {
+
+    .footer {
         height: 400px;
     }
-    .footer h2
-    {
+
+    .footer h2 {
         font-size: 30px;
         margin-left: 50px;
         padding-top: 0;
     }
-    .footer h4{
+
+    .footer h4 {
         margin: 0 0 0 50px;
     }
-    .whatsapp img{
+
+    .whatsapp img {
         margin-left: 50px;
     }
-    .call
-    {
+
+    .call {
         margin-top: 14px;
     }
-    .store img{
+
+    .store img {
         width: 90px;
         margin-left: 50px;
     }
-    .play img
-    {
+
+    .play img {
         width: 100px;
     }
-    .footer h1
-    {
+
+    .footer h1 {
         font-size: 20px;
         margin: 30px;
     }
-    .boder
-    {
+
+    .boder {
         width: 230px;
     }
-    ul{
+
+    ul {
         margin-top: 0;
     }
-    .comb
-    {
+
+    .comb {
         gap: 10px;
     }
-    .rights h5{
+
+    .rights h5 {
         margin-top: 5px;
     }
-    .rights
-    {
+
+    .rights {
         margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 799px) {
+    .header-box {
+        display: block;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    h6 {
+        font-size: 10px;
+        font-weight: bold;
+        display: inline-block;
+        padding: 10px 0;
+    }
+
+    .adress img {
+        width: 15px;
+        height: 15px;
+        margin-top: 14px;
+    }
+
+    .adress {
+        margin: 0;
+        gap: 0;
+    }
+
+    .adress a {
+        font-size: 8px;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .mega-logo img {
+        width: 25px;
+    }
+
+    .mega-logo {
+        padding: 10px 0;
+    }
+
+    .menu span {
+        font-size: 15px;
+    }
+
+    input[type=search] {
+        width: 180px;
+        height: 30px;
+        background-position: 3px 10px;
+        background-size: 10px;
+    }
+
+    input::placeholder {
+        font-size: 7px;
+    }
+
+    .search {
+        padding: 5px;
+    }
+
+    .sign a {
+        display: block;
+        font-size: 5px;
+    }
+
+    .sign img {
+        width: 15px;
+    }
+
+    .buttons {
+        padding: 10px 0;
+    }
+
+    .menu {
+        height: 40px;
+    }
+
+    .items-border {
+        height: 20px;
+        overflow: scroll;
+    }
+
+    .groceries {
+        width: 100px;
+        height: 20px;
+    }
+
+    .fruit {
+        width: 100px;
+        height: 20px;
+    }
+
+    .fashion {
+        width: 100px;
+        height: 20px;
+    }
+
+    .electronics {
+        width: 100px;
+        height: 20px;
+    }
+
+    .home {
+        width: 100px;
+        height: 20px;
+    }
+
+    .sport {
+        width: 100px;
+        height: 20px;
+    }
+
+    h5 {
+        font-size: 8px;
+        margin: 5px 8px;
+        overflow: hidden;
+    }
+
+    .items img {
+        width: 10px;
+        height: 12px;
+    }
+
+    .erow {
+        width: 50px;
+        height: 50px;
+        margin-top: 65px;
+    }
+
+    .erow img {
+        width: 7px;
+        margin: 20px;
+    }
+
+    .erow1 {
+        width: 50px;
+        height: 50px;
+        margin: 65px 0 0 25px;
+    }
+
+    .erow1 img {
+        width: 17px;
+        margin: 18px;
+    }
+
+    .off {
+        height: 180px;
+        margin: 0 0 0 20px;
+        width: 83%;
+    }
+
+    .off h2 {
+        font-size: 10px;
+        margin: 10px 0 0 30px;
+    }
+
+    .off h1 {
+        font-size: 15px;
+        margin: 15px 0 0 30px;
+    }
+
+    .off p {
+        display: none;
+    }
+
+    .watch img {
+        width: 150px;
+        height: 150px;
+        padding-right: 20px;
+    }
+
+    .grab {
+        height: 60px;
+    }
+
+    .grab h2 {
+        margin-top: 40px;
+        font-size: 10px;
+    }
+
+    .grab img {
+        width: 10px;
+        height: 10px;
+        margin-top: 42px;
+    }
+
+    .card1,
+    .card3 {
+        width: 150px;
+        height: 200px;
+        margin: 40px 0 0 40px;
+    }
+
+    .offf {
+        width: 40px;
+        height: 40px;
+    }
+
+    .s22 img {
+        height: 100px;
+        margin: 20px 10px 20px 30px;
+    }
+
+    .card2,
+    .card4 {
+        width: 150px;
+        height: 200px;
+        margin: 40px 40px 0 0;
+    }
+
+    .card5 {
+        width: 150px;
+        height: 200px;
+        margin: 40px 0 0 0;
+
+    }
+
+    .m13 img {
+        height: 115px;
+        margin: 12px 0 12px 15px;
+    }
+
+    .smartphones {
+        flex-wrap: wrap;
+    }
+
+    .circle,
+    .circle2,
+    .circle3,
+    .circle4,
+    .circle5,
+    .circle6,
+    .circle7 {
+        width: 250px;
+        height: 130px;
+        margin: 40px 0 0 0;
+        text-align: center;
+    }
+
+    .circle img {
+        margin: 20px 0 0 0;
+    }
+
+    .circle2 img {
+        margin: 20px 0 0 0;
+    }
+
+    .circle3 img,
+    .circle4 img,
+    .circle6 img {
+        margin: 20px 0 0 0;
+    }
+
+    .circle5 img {
+        margin: 30px 0 0 0;
+    }
+
+    .circle7 img {
+        margin: 20px 0 0 0;
+    }
+
+    .top-categories {
+        flex-wrap: wrap;
+    }
+
+    .iphone {
+        margin: 50px 0 0 0;
+    }
+
+    .mi {
+        margin: 50px 0 0 0;
+    }
+
+    .electronics-brand {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box,
+    .box2,
+    .box4 {
+        width: 160px;
+        height: 160px;
+        margin: 40px 0 0 40px;
+    }
+
+    .box1,
+    .box3,
+    .box5 {
+        width: 160px;
+        height: 160px;
+        margin: 40px 40px 0 0;
+    }
+
+    .box img {
+        width: 110px;
+        height: 110px;
+        margin: 25px;
+    }
+
+    .box1 img,
+    .box2 img {
+        width: 110px;
+        height: 110px;
+        margin: 25px;
+    }
+
+    .box3 img,
+    .box4 img {
+        width: 110px;
+        height: 110px;
+        margin: 25px;
+    }
+
+    .box5 img {
+        width: 110px;
+        height: 110px;
+        margin: 25px;
+    }
+
+    .daily h5 {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .daily h3 {
+        font-size: 14px;
+    }
+
+    .daily {
+        flex-wrap: wrap;
+    }
+    .footer {
+        height: 450px;
+    }
+    .footer h2 {
+        font-size: 20px;
+        margin: 0 0 0 70px;
+        padding-top: 30px;
+    }
+    .footer h4 {
+        margin: 20px 0 20px 70px;
+    }
+    .whatsapp img {
+        margin: 0 0 0 70px;
+    }
+    .play img {
+        width: 100px;
+        margin-left: 70px;
+    }
+    .store img {
+        width: 90px;
+        margin-left: 70px;
+    }
+    .app {
+        flex-direction: column;
+    }
+    .footer h1 {
+        font-size: 15px;
+        margin: 35px 0 0 0;
+    }
+    ul li {
+        font-size: 12px;
+        margin-top: 0;
+    }
+    ul {
+        margin-top: 20px;
+    }
+    .popular {
+        margin-left: 20px;
+    }
+    .customer {
+        margin-right: 30px;
+        margin-left: 10px;
     }
 }
